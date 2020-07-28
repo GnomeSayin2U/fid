@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body {
+  font-family: 'Rowdies', cursive;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #BCEDF6 url(Full/globe.png) no-repeat center 150px fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: #320E3B;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Rowdies', cursive;
+	font-weight: bold;
+	font-size: 50px;
+  text-shadow: .10em .10em .1em lightslategray;
+  text-align: center;
+  color: #320E3B;
+}
+h2 {
+   font-family: 'Rowdies', cursive;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #4C2A85;
+}
+footer {
+          border-top: 1px solid #CED097;
+          text-align: center;
+          padding-top: 1em;
+}
+footer img {
+       width: 50px;
+       height: 50px;
+       margin-left: .5em;
+       margin-right: .5em;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 1px -220px;
+  padding: 1px 500px;
+  overflow: hidden;
+}
+#info p {
+  font-style: italic;
+  text-align: center;
+  color: #ffcccb;
+}
+p.warning, sup {
+  font-size: small;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+center {
+line-height: 60px;
+}
